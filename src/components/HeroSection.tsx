@@ -3,7 +3,7 @@ import ashwinCutout from "@/assets/ashwin-cutout.png";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative w-full min-h-screen overflow-hidden bg-muted pt-20">
+    <section id="home" className="relative w-full min-h-screen overflow-hidden bg-[hsl(0,0%,75%)] pt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between h-[calc(100vh-5rem)]">
         {/* Left - Image */}
         <motion.div
