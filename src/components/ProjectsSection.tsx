@@ -7,7 +7,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   { title: "BoxITRight", images: [boxitright] },
-  { title: "Figma Designs", images: [figmaEvents, figmaDashboard] },
+  { title: "Figma Designs", images: [figmaDashboard, figmaEvents] },
 ];
 
 const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: number }) => {
