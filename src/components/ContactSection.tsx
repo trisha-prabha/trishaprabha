@@ -16,7 +16,7 @@ const ContactSection = () => {
         <div className="flex items-end justify-between border-t border-border pt-8 mb-12">
           <div />
           <a
-            href="mailto:its.ashwin.23@gmail.com"
+            href="mailto:trisha13p@gmail.com"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-sm font-medium hover:scale-105 transition-transform">
             
             Get in touch
