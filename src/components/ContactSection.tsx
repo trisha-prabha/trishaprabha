@@ -24,13 +24,13 @@ const ContactSection = () => {
         </div>
 
         {/* Footer */}
-        <div className="flex flex-col md:flex-row gap-6 md:gap-16 text-sm">
+        <div className="grid grid-cols-2 max-w-md gap-6 text-sm">
           <div>
-            <span className="text-muted-foreground text-xs">Email:</span>
+            <span className="text-muted-foreground text-xs block mb-1">Email:</span>
             <p className="text-foreground font-medium">its.ashwin.23@gmail.com</p>
           </div>
           <div>
-            <span className="text-muted-foreground text-xs">LinkedIn:</span>
+            <span className="text-muted-foreground text-xs block mb-1">LinkedIn:</span>
             <a href="https://www.linkedin.com/in/trisha-prabha-p-029222334/" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-accent transition-colors underline block">Trisha Prabha P</a>
           </div>
         </div>
