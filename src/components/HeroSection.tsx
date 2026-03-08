@@ -1,55 +1,44 @@
-import heroImg from "@/assets/hero-portrait.jpg";
-import { ArrowUpRight, Home, Layers, Settings, User, FolderOpen, Code, Mail } from "lucide-react";
+import { motion } from "framer-motion";
+import ashwinCutout from "@/assets/ashwin-cutout.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-[85vh] min-h-[600px] overflow-hidden bg-muted">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImg}
-          alt="Ashwin - UI/UX Designer & Developer"
-          className="w-full h-full object-cover object-top grayscale"
-        />
-        <div className="absolute inset-0 bg-foreground/20" />
-      </div>
+    <section id="home" className="relative w-full min-h-screen overflow-hidden bg-muted pt-20">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between h-[calc(100vh-5rem)]">
+        {/* Left - Image */}
+        <motion.div
+          initial={{ opacity: 0, x: -60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="flex-1 flex items-end justify-center md:justify-start h-full pt-8"
+        >
+          <img
+            src={ashwinCutout}
+            alt="Ashwin - UI/UX Designer"
+            className="h-[60vh] md:h-[75vh] object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-700"
+          />
+        </motion.div>
 
-      {/* Top Bar */}
-      <div className="absolute top-0 left-0 right-0 z-10 flex justify-between items-start px-6 md:px-12 pt-6">
-        <span className="text-primary-foreground/80 text-sm font-display">© Code by Ashwin</span>
-        <p className="text-primary-foreground/70 text-xs md:text-sm text-right max-w-xs leading-relaxed hidden md:block">
-          Passionate Creative Designer and Developer, dedicated to crafting innovative solutions and exceptional digital experiences
-        </p>
-      </div>
-
-      {/* Center Arrow */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 z-10">
-        <div className="w-14 h-14 rounded-full border border-primary-foreground/30 flex items-center justify-center">
-          <ArrowUpRight className="w-5 h-5 text-primary-foreground/70" />
-        </div>
-      </div>
-
-      {/* Large Title */}
-      <div className="absolute bottom-24 left-0 right-0 z-10">
-        <h1 className="text-[clamp(3rem,10vw,8rem)] font-display font-bold text-primary-foreground leading-none text-center tracking-tight">
-          UI/UX Developer &amp; Designer
-        </h1>
-      </div>
-
-      {/* Floating Toolbar */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="flex items-center gap-1 bg-foreground/80 backdrop-blur-md rounded-full px-3 py-2">
-          {[Home, Layers, Settings, User, FolderOpen, Code, Mail].map((Icon, i) => (
-            <button
-              key={i}
-              className={`w-9 h-9 rounded-full flex items-center justify-center transition-colors ${
-                i === 3 ? "bg-accent text-accent-foreground" : "text-primary-foreground/60 hover:text-primary-foreground"
-              }`}
-            >
-              <Icon className="w-4 h-4" />
-            </button>
-          ))}
-        </div>
+        {/* Right - Text */}
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
+          className="flex-1 flex flex-col items-start md:items-end justify-center text-left md:text-right pb-16 md:pb-0"
+        >
+          <h1 className="text-[clamp(3rem,8vw,7rem)] font-display font-bold text-foreground leading-[0.95] tracking-tight">
+            Ashwin
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground font-display mt-3 tracking-wide">
+            UI / UX Designer
+          </p>
+          <motion.div
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="w-16 h-0.5 bg-accent mt-6 origin-right"
+          />
+        </motion.div>
       </div>
     </section>
   );
