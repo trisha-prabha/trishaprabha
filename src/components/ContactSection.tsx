@@ -16,7 +16,7 @@ const ContactSection = () => {
         <div className="flex items-end justify-between border-t border-border pt-8 mb-12">
           <div />
           <a
-            href="mailto:trisha13p@gmail.com"
+            href="mailto:its.ashwin.23@gmail.com"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-sm font-medium hover:scale-105 transition-transform">
             
             Get in touch
@@ -27,16 +27,16 @@ const ContactSection = () => {
         <div className="flex flex-col md:flex-row gap-6 md:gap-16 text-sm">
           <div>
             <span className="text-muted-foreground text-xs">Email:</span>
-            <p className="text-foreground font-medium">trisha13p@gmail.com</p>
+            <p className="text-foreground font-medium">its.ashwin.23@gmail.com</p>
           </div>
           <div>
-            <span className="text-muted-foreground text-xs">LinkedIn:</span>
-            <a href="https://www.linkedin.com/in/trisha-prabha-p-029222334/" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-accent transition-colors underline">linkedin.com/in/trisha-prabha-p</a>
+            <span className="text-muted-foreground text-xs">
+LinkedIn:
+
+</span>
+            <p className="text-foreground font-medium">trisha13p@gmail.com</p>
           </div>
         </div>
       </div>
-    </section>);
-
-};
-
+    </section>);};
 export default ContactSection;
