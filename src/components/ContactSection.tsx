@@ -31,7 +31,7 @@ const ContactSection = () => {
           </div>
           <div>
             <span className="text-muted-foreground text-xs">LinkedIn:</span>
-            <p className="text-foreground font-medium">https://www.linkedin.com/in/trisha-prabha-p-029222334/</p>
+            <a href="https://www.linkedin.com/in/trisha-prabha-p-029222334/" target="_blank" rel="noopener noreferrer" className="text-foreground font-medium hover:text-accent transition-colors underline">linkedin.com/in/trisha-prabha-p</a>
           </div>
         </div>
       </div>
