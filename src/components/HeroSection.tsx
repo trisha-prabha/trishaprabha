@@ -10,12 +10,12 @@ const HeroSection = () => {
           initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex-1 flex items-end justify-center md:justify-start h-full pt-8"
+          className="flex-1 flex items-center justify-center md:justify-start h-full"
         >
           <img
             src={ashwinCutout}
-            alt="Ashwin - UI/UX Designer"
-            className="h-[60vh] md:h-[75vh] object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-700 bg-[hsl(0,0%,75%)]"
+            alt="Trisha Prabha - UI/UX Designer"
+            className="h-[70vh] md:h-[85vh] object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-700 bg-[hsl(0,0%,75%)]"
           />
         </motion.div>
 
