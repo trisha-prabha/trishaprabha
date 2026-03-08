@@ -15,7 +15,7 @@ const HeroSection = () => {
           <img
             src={ashwinCutout}
             alt="Ashwin - UI/UX Designer"
-            className="h-[60vh] md:h-[75vh] object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-700"
+            className="h-[60vh] md:h-[75vh] object-contain object-bottom grayscale hover:grayscale-0 transition-all duration-700 bg-muted"
           />
         </motion.div>
 
