@@ -27,7 +27,7 @@ const SkillsSection = () => {
                 {group.items.map((skill) => (
                   <li
                     key={skill}
-                    className="text-foreground text-sm font-medium px-3 py-2 rounded-md bg-background/60 border border-border hover:border-accent hover:shadow-sm transition-all"
+                    className="text-foreground text-sm font-medium px-3 py-2.5 rounded-md bg-background border border-border hover:border-accent hover:shadow-sm transition-all"
                   >
                     {skill}
                   </li>
