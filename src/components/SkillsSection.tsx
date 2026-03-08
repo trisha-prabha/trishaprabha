@@ -1,10 +1,10 @@
 import ScrollReveal from "./ScrollReveal";
 
 const skills = [
-  { category: "Design", items: ["UI/UX Design", "Wireframing", "Prototyping", "Visual Design", "Design Systems"] },
-  { category: "Tools", items: ["Figma", "Adobe XD", "Photoshop", "Illustrator", "Canva"] },
-  { category: "Development", items: ["HTML / CSS", "JavaScript", "React", "Tailwind CSS", "Responsive Design"] },
-  { category: "Soft Skills", items: ["User Research", "Problem Solving", "Collaboration", "Communication", "Attention to Detail"] },
+  { category: "Design", items: ["User Interface Design", "User Experience Design", "Wireframing & Prototyping", "Visual & Brand Identity", "Design Systems & Guidelines"] },
+  { category: "Tools", items: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe XD", "Canva"] },
+  { category: "Development", items: ["HTML5 & CSS3", "JavaScript / TypeScript", "React.js", "Tailwind CSS", "Responsive & Adaptive Design"] },
+  { category: "Soft Skills", items: ["User Research & Testing", "Creative Problem Solving", "Cross-functional Collaboration", "Clear Communication", "Attention to Detail"] },
 ];
 
 const SkillsSection = () => {
