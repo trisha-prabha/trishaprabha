@@ -38,7 +38,7 @@ const Navbar = () => {
         <a href="#home" className="text-lg font-display font-bold text-foreground">
           Ashwin
         </a>
-        <div className="hidden md:flex items-center gap-1 bg-muted/60 backdrop-blur-sm rounded-full px-2 py-1.5">
+        <div className="hidden md:flex items-center gap-1 bg-muted/60 backdrop-blur-sm rounded-full px-2 py-1.5 ml-auto">
           {navItems.map((item) => (
             <button
               key={item.label}
