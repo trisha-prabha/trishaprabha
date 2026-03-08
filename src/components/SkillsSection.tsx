@@ -2,7 +2,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const skills = [
   { category: "Design", items: ["User Interface Design", "User Experience Design", "Wireframing & Prototyping", "Visual & Brand Identity", "Design Systems & Guidelines"] },
-  { category: "Tools", items: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Adobe XD", "Canva"] },
+  { category: "Tools", items: ["Figma", "Canva", "Adobe Photoshop", "Adobe Illustrator", "Adobe XD"] },
   { category: "Development", items: ["HTML5 & CSS3", "JavaScript / TypeScript", "React.js", "Tailwind CSS", "Responsive & Adaptive Design"] },
   { category: "Soft Skills", items: ["User Research & Testing", "Creative Problem Solving", "Cross-functional Collaboration", "Clear Communication", "Attention to Detail"] },
 ];
