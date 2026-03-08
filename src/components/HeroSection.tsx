@@ -27,7 +27,7 @@ const HeroSection = () => {
           className="flex-1 flex flex-col items-start md:items-end justify-center text-left md:text-right pb-16 md:pb-0"
         >
           <h1 className="text-[clamp(3rem,8vw,7rem)] font-display font-bold text-foreground leading-[0.95] tracking-tight">
-            Trisha
+            Trisha Prabha
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground font-display mt-3 tracking-wide">
             UI / UX Designer
