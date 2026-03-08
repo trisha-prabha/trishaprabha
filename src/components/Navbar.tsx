@@ -59,7 +59,7 @@ const Navbar = () => {
       }>
       
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-12 py-4">
-        <a href="#home" className="text-lg font-display font-bold text-foreground">Trisha
+        <a href="#home" className="text-lg font-display font-bold text-foreground">T.
 
         </a>
         <div className="hidden md:flex items-center gap-1 bg-muted/60 backdrop-blur-sm rounded-full px-2 py-1.5 ml-auto">
