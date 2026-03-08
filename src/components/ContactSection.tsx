@@ -30,8 +30,8 @@ const ContactSection = () => {
             <p className="text-foreground font-medium">its.ashwin.23@gmail.com</p>
           </div>
           <div>
-            <span className="text-muted-foreground text-xs">Phone:</span>
-            <p className="text-foreground font-medium">trisha13p@gmail.com</p>
+            <span className="text-muted-foreground text-xs">LinkedIn:</span>
+            <p className="text-foreground font-medium">https://www.linkedin.com/in/trisha-prabha-p-029222334/</p>
           </div>
         </div>
       </div>
